@@ -13,6 +13,12 @@ def scalar_multiply(scalar, v):
 
 v1 = [1, 2, 3]
 v2 = [4, 5, 6]
+scalar = 8
 
 print("Addition:", vector_add(v1, v2))
+
+print("Subtraction:", vector_subtract(v1, v2))
+
 print("Dot Product:", dot_product(v1, v2))
+
+print("Scalar Multiplication:", scalar_multiply(scalar, v1))
